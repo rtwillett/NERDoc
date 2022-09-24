@@ -4,13 +4,21 @@
 
 {% block topnavright %}
 <ul id="menu">
-	<li><a href="https://gryphon-strategies.com/" target="_blank"><img src="{{ url_for('static', filename='images/gryphonicon.ico') }}" style="height: 30px"></a></li>
+	<li><a href="https://github.com/rtwillett/NERDoc" target="_blank"><img src="{{ url_for('static', filename='images/github.ico') }}" style="height: 25px"></a></li>
+	<li>|</li>
+	<li><a href= {{ url_for('ner.ner_dashboard')}}>NER</a></li>
+	<li>|</li>
+	<li><a href= {{ url_for('ocr.ocr_dashboard')}}>OCR</a></li>
+	<li>|</li>
+	<li><a href= {{ url_for('summ.summary_dashboard')}}>Summarization</a></li>
 </ul>
 {% endblock %}
 
 
 {% block content %}
 <main class="main-center">
+	<h2>NERDoc</h2>
+	<h4> Document Analysis Framework</h4>
 </main>
 
 {% endblock %}
