@@ -1,0 +1,431 @@
+a {
+    color: #042430;
+}
+
+a:hover {
+    color: white;
+    background-color: #042430;
+    
+}
+
+/* Dealing with the nav bar and the drop down hamburger */
+#nav_bar{
+    background-color: #fff;
+    border-bottom: #3B4868;
+    border-bottom: solid;
+    font-weight:bold;
+    height: 30px;
+    font-size:20px;
+    color: #042430;
+    text-align: right;
+    padding-right: 50px;
+    }
+
+#nav_bar_l{
+    background-color: #fff;
+    border-bottom: #3B4868;
+    border-bottom: solid;
+    font-weight:bold;
+    height: 30px;
+    font-size:20px;
+    color: #042430;
+    text-align: left;
+    padding-right: 50px;
+    }
+
+ul#menu li {
+    display: inline;
+    margin-left: 10px;
+}
+
+.dropdown-menu.show{
+    display:block !important; 
+    position:absolute;
+    float:right;
+    right: 0;
+}
+
+.navbar-toggler{
+    background-color:#042430;
+}
+
+/* .fa.fa-bars{
+    background-color:#042430;
+    color: #F5F5F5;
+} */
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+.sticky + .content {
+    padding-top: 60px;
+}
+
+/* dealing with the body of the page */
+body{
+    font-family:'Roboto', sans-serif;
+    font-size: 16px;
+    background-color:#fff;
+    margin:0;
+    height:100%;
+    width:100%;
+    }
+
+/* .main_divs{
+    margin-top:50px;
+    width:100%;
+} */
+
+/* .half_divs_body{
+    width:96%;
+    float:left;
+    margin:2%;
+    } */
+
+/* .half_divs_config{
+    width:20%;
+    float:left;
+    margin:2%;
+    } */
+
+/* #user_input_label{
+    text-align: left;
+} */
+
+/* .display_values{
+    float:right;
+} */
+
+.button {
+    float:left;
+    font-weight:bold;
+    border: none;
+    padding: 2%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    display: block;
+    width: 100%;
+    margin:auto;
+    background-color: #A9B3CE;
+    color: #042430;
+    }
+  /* ----------- Cleaned up to here  */
+
+/* .drop_down_format{
+    float:left;
+    font-weight:bold;
+    border-left: solid;
+    border-right: solid;
+    padding: 2%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    display: block;
+    width: 100%;
+    margin:auto;
+    background-color: #D8DDE9;
+    color: #042430;
+} */
+
+/* .button_config {
+    float:left;
+    font-weight:bold;
+    border: none;
+    padding: 2%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    display: block;
+    margin:auto;
+    text-align: center;
+    background-color:#042430;
+    color: #F5F5F5;
+    width:50%;
+   
+} */
+
+input[type="radio"] {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Chrome, Safari, Opera */
+    transform: scale(1.5);
+}
+
+/* #form_button_submit{
+    width:100;
+    text-align: center;
+    background-color:#042430;
+    color: #F5F5F5;
+    border: none;
+} */
+
+/* #form_button_reset{
+    width:100;
+    text-align: center;
+    background-color:#042430;
+    color: #F5F5F5;
+    border: none;
+} */
+
+/* #submit_button_file{
+    padding: 2%;
+    background-color:#042430;
+    color: #F5F5F5;
+    } */
+
+/* #submit_button_text{
+    padding:2%;
+    background-color:#042430;
+    color: #F5F5F5;
+    }    */
+
+/* #form_button_text{
+    background-color:#042430;
+    color: #F5F5F5;
+    width:50%
+    }    */
+
+/* #nav_bar_brand_id{
+    float:left;
+    width:50%;
+    font-size: 30px;
+    font-weight:bold;
+    padding: 2%;
+    margin:auto;
+} */
+
+/* .directionText{
+    padding: 10px;
+    color: #042430;
+    } */
+
+/* #file_select_label{
+    width:100%;
+    } */
+
+/* #text_input_form{
+    margin-bottom:2%;
+    } */
+
+/* #fileicon{
+    float:left;
+    width:100%;
+    padding-top:2%;
+    } */
+
+/* #bug_fileicon{
+    float:left;
+    width:100%;
+    padding-top:2%;
+} */
+
+/* #form_layout{
+    float:left;
+    width:100%;
+} */
+
+/* #config_drop_down_button{
+    background-color:#042430;
+    color: #F5F5F5;
+    width:25%;
+    float:right;
+    border:none;
+    margin-bottom:5px;
+} */
+
+/* #drop_down_menu_config{
+    padding:0;
+    margin:0;
+} */
+
+/* #config_bar_percent{
+    border-top:solid;
+    border-color:#042430;
+} */
+
+.dropdown-menu,.dropdown-menu.show{
+    width:50%;
+    text-align:center;
+    position: absolute;
+    right: 0;
+    background-color:#D8DDE9;
+    /* border-radius: 10px; */
+}
+
+/* #drop_down_menu_nav{
+    width:100%;
+    position: absolute;
+    right:0;
+} */
+
+/* .bar_head{
+    float:left;
+    font-size: 20px;
+    width: 100%;
+    background-color:#3B4868;
+    font-family:'Roboto', sans-serif;
+    font-weight:bold;
+    border: none;
+    padding: 5px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    display: block;
+    margin:auto;
+    color: #F5F5F5;
+} */
+
+/* For the file input */
+/* input[type='file'] {
+    opacity:0;
+    } */
+
+/* #file_opload_bug_text{
+    float:"left";
+    width:50%;
+} */
+
+/* #file_select_label_bug{
+    float:"left";
+    width:50%;} */
+
+/* Help page formating  */
+
+/* #help_dir_title{
+    font-size: 35px;
+    background-color:#3B4868;
+    color: #F5F5F5;
+} */
+
+/* .section-header-darkmode{
+    float:left;
+    font-size: 20px;
+    width: 100%;
+    background-color:#3B4868;
+    font-family:'Roboto', sans-serif;
+    font-weight:bold;
+    border: none;
+    padding: 5px;
+    padding-left: 10px;
+    text-decoration: none;
+    display: inline-block;
+    display: block;
+    margin:auto;
+    color: #F5F5F5;
+} */
+
+/* .error_page_header{
+    float:left;
+    font-size: 20px;
+    text-align:center;
+    width: 100%;
+    background-color:#3B4868;
+    font-family:'Roboto', sans-serif;
+    font-weight:bold;
+    border: none;
+    padding: 5px;
+    padding-left: 10px;
+    text-decoration: none;
+    display: inline-block;
+    display: block;
+    margin:auto;
+    color: #F5F5F5;
+} */
+
+/* .portal-bg { */
+    /*height: 100%;*/
+    /* width: 100%;  */
+    /*background-color: red;*/
+/* } */
+
+.main-center{
+    display: block;
+    padding: 10%;
+    width: 50%;
+    margin:auto;
+    background-color: #fff;
+}
+
+/* .main-center-w{
+    display: block;
+    padding: 10%;
+    width: 90%;
+    margin:auto;
+    background-color: #fff;
+} */
+
+/* .div-wide-light{
+    background-color: #FFF;
+    padding: 10px;
+    padding-top: 50px;
+    font-weight: normal;
+    font-size: 16px;
+    font-family:'Roboto', sans-serif;
+    text-align: justify;
+    color: #7A7A7A;
+    line-height: 1.3em;
+} */
+
+.form-label {
+    font-weight: bold;
+    font-size: 18px;
+    font-color: #042430;
+}
+
+.leftcol {
+    float: left;
+    width:49%;
+}
+
+.rightcol {
+    float: right;
+    width:49%;
+}
+
+#logo-header {
+    height: 100px;
+    margin: auto;
+    display: block;
+    
+}
+
+.nerdoc-button {
+    background-color: #1c470a;
+    color: #fff;
+}
+
+footer {
+    padding-top: 10px;
+    background-color: #fff;
+    color: #7A7A7A;
+    font-family:'Roboto', sans-serif;
+}
+
+.left-footer {
+    /*margin-left: 10px;*/
+    padding: 10px;
+    margin: auto;
+}
+
+.right-footer {
+    /*margin-left: 10px;*/
+    padding: 10px;
+    margin: auto;
+}
+
+td {
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.separator {
+    height: 5px;
+    background-color: #042430;
+}
