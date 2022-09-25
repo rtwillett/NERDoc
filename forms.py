@@ -13,6 +13,13 @@ from flask_wtf.file import FileField, FileRequired, FileAllowed
 
 import pandas as pd
 
+class InputURL(FlaskForm):
+
+    url = StringField('Username', [DataRequired()])
+    submit = SubmitField('Submit')
+
 class SelectFile(FlaskForm):
 
-    pass
+    pdf_file = FileField('Document',validators = [FileRequired(), FileAllowed(['pdf'])])
+
+    submit = SubmitField('Add Data')
