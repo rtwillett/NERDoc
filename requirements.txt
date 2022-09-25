@@ -1,7 +1,6 @@
 absl-py==1.1.0
 aiohttp==3.7.4
 alabaster==0.7.12
-allensdk==2.13.6
 anaconda-client==1.7.2
 anaconda-navigator==1.9.7
 anaconda-project==0.8.3
@@ -216,10 +215,7 @@ numpydoc==0.9.1
 oauthlib==3.2.0
 olefile==0.46
 omegaconf==2.1.1
-opencv-python==4.5.1.48
-opencv-python-headless==4.5.4.60
 openpyxl==2.6.2
--e git+https://github.com/openskynetwork/opensky-api.git@d576cf260affd99156e352528ea46817273512d7#egg=opensky_api&subdirectory=python
 opt-einsum==3.3.0
 osqp==0.6.1
 packaging==21.3
@@ -234,6 +230,7 @@ pathlib2==2.3.4
 pathspec==0.9.0
 pathy==0.6.1
 patsy==0.5.1
+pdf2image==1.16.0
 pep8==1.7.1
 pexpect==4.7.0
 pickleshare==0.7.5
@@ -394,7 +391,6 @@ pytest-openfiles==0.3.2
 pytest-remotedata==0.3.1
 python-dateutil==2.8.2
 python-slugify==4.0.1
-pytorch-ranger==0.1.1
 PyTweening==1.0.3
 pytz==2019.1
 PyWavelets==1.0.3
@@ -416,7 +412,6 @@ ruamel-yaml==0.15.46
 ruamel.yaml==0.16.12
 ruamel.yaml.clib==0.2.2
 rubicon-objc==0.3.1
-s3transfer==0.3.3
 sacremoses==0.0.45
 scholarly==0.2.5
 scikit-build==0.11.1
@@ -426,8 +421,6 @@ scikit-learn==1.0.2
 scipy==1.6.3
 Scrapy==1.7.3
 scs==2.1.1.post2
-seaborn==0.11.2
-selenium==3.141.0
 semver==2.13.0
 Send2Trash==1.5.0
 sentencepiece==0.1.95
@@ -458,20 +451,12 @@ sphinxcontrib-serializinghtml==1.1.3
 sphinxcontrib-websupport==1.1.2
 spyder==3.3.6
 spyder-kernels==0.5.1
-SQLAlchemy==1.3.5
-sqlalchemy-redshift==0.7.9
 srsly==2.4.4
 statsmodels==0.9.0
 sympy==1.4
 tables==3.6.1
 tabulate==0.8.9
 tblib==1.4.0
-tensorboard==2.9.1
-tensorboard-data-server==0.6.1
-tensorboard-plugin-wit==1.8.1
-tensorflow==2.9.1
-tensorflow-estimator==2.9.0
-tensorflow-io-gcs-filesystem==0.26.0
 termcolor==1.1.0
 terminado==0.8.2
 testpath==0.4.2
@@ -479,14 +464,11 @@ text-unidecode==1.3
 thinc==8.1.1
 threadpoolctl==3.1.0
 tifffile==2021.11.2
-tika==1.24
 tinycss2==1.1.1
 tokenizers==0.10.3
 toml==0.10.2
 toolz==0.10.0
 torch==1.9.0
-torch-optimizer==0.3.0
-torchvision==0.10.0
 tornado==6.2
 tqdm==4.62.3
 traitlets==5.4.0
@@ -499,8 +481,6 @@ unicodecsv==0.14.1
 urllib3==1.26.6
 virtualenv==16.7.8
 visitor==0.1.3
-w3lib==1.21.0
-wasabi==0.10.1
 wcwidth==0.1.7
 webencodings==0.5.1
 Werkzeug==2.2.2
