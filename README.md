@@ -55,6 +55,11 @@ Installation of 3rd party dependencies will be automated with a bash script in f
 
     python -m spacy download en_core_web_lg
 
+6. To use run, the notebooks, you'll need to create a kernel from your virtual env in Jupyter
+
+    python -m ipykernel install --user --name nerdoc
+
+    Then select "nerdoc" as the choice of kernel for the notebook
 ## Usage
 
 Deploy the application by navigating to the project directory and running
