@@ -385,6 +385,7 @@ PyRect==0.1.4
 pyrsistent==0.14.11
 PyScreeze==0.1.26
 PySocks==1.7.0
+pytesseract==0.3.10
 pytest==5.0.1
 pytest-arraydiff==0.3
 pytest-astropy==0.5.0
