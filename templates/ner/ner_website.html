@@ -1,0 +1,32 @@
+{% extends 'ner/ner_dashboard_base.html' %}
+{% block title %}{{title}}{% endblock %}
+
+{% block content %}
+
+
+<main class="main-center">
+    <div class="container">
+        <h2>Enter URL</h2>
+        <div class="container">
+            <br>    
+
+            <div class="form-group">
+                <form action="/post_ner_website" method="POST">
+                    {{ form.csrf_token }}
+
+                {{ form.url.label(class_ = 'col-sm-2 col-form-label-lg') }}
+                <div class = "col-sm-6">
+                    {{ form.url(class_ = 'form-control') }}
+                </div>
+
+                {{form.submit(class='btn-sm gryphon-button')}}
+                </form>
+            </div>
+            </form>
+    
+        </div>
+    </div>
+</main>
+
+
+{% endblock %}

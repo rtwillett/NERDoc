@@ -1,5 +1,7 @@
 from flask import Blueprint, render_template, url_for, request, session, flash, redirect, jsonify, current_app
 from forms import InputURL
+from modules.api import ScrapeWebpage
+from modules.nlp import NERDocument
 
 ner = Blueprint("ner", __name__, static_folder = "static", template_folder = "templates")
 
@@ -28,5 +30,20 @@ def ner_batch():
 @ner.route("/post_ner_website", methods=['POST'])
 def post_ner_website():
 
-	return 'Successful'
+	url = request.form.get('url')
+
+	scraper = ScrapeWebpage(url)
+	url_text = scraper.text
+
+	doc = NERDocument(url_text)
+
+	if 'PERSON' in doc.ner_extracts.keys():
+		return doc.ner_extracts['PERSON'].head(20).to_dict(orient='records')
+	else: 
+		return 'Sorry, no PERSON data'
+
+	
+
+	# return web_data
+	# return 'Successful'
 	

@@ -1,0 +1,32 @@
+{% extends 'ocr/ocr_dashboard_base.html' %}
+{% block title %}{{title}}{% endblock %}
+
+{% block content %}
+
+
+<main class="main-center">
+    <div class="container">
+        <h2>Document OCR</h2>
+
+        <div class="container">
+            <br>    
+
+
+            <p>OCR complete</p>
+
+            <p>You may download your text in {{ocr_filepath}}</p>
+            <p>In the final version, this will include a button for the user to click to download their file but I elected 
+                for this "quick and dirty" approach in the interest of time.
+            </p>
+    
+        </div>
+        <hr>
+        <h3>OCR Full Text (won't be present in the final version)</h3>
+        {% for line in data %}
+        <p>{{line}}</p>
+        {% endfor %}
+
+    </div>
+</main>
+
+{% endblock %}
