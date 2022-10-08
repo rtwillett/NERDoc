@@ -37,6 +37,9 @@ def dashboard():
 
 @app.route("/dataviz")
 def dataviz():
+	'''
+	This page is not connected to the UI and the page is not pushed because currently it crashes Flask when loaded.
+	'''
 
 	import base64
 	import seaborn as sns

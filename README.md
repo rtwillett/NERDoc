@@ -1,5 +1,9 @@
 # Project name
 
+## NOTES:
+
+This project is currently not working and will require some additional efforts to get the NLP engine attached to the UI front-end. I plan to continue updating this project but it will take a few days to weeks to become operational.
+
 ## Team Members
 Ryan Willett
 
