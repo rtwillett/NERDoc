@@ -35,6 +35,29 @@ def landing():
 def dashboard():
 	return render_template('general_templates/dashboard.html', title = 'NERDoc')
 
+@app.route("/dataviz")
+def dataviz():
+
+	import base64
+	import seaborn as sns
+	import matplotlib.pyplot as plt
+	from io import StringIO
+	
+	img = StringIO()
+	sns.set_style("dark")
+	
+	y = [1,2,3,4,5]
+	x = [0,2,1,3,4]
+
+	plt.plot(x,y)
+	plt.savefig(img, format='png')
+	plt.close()
+	img.seek(0)
+
+	plot_url = base64.b64encode(img.getvalue())
+
+	return render_template('general_templates/dataviz.html', plot_url = plot_url, title = 'NERDoc')
+
 
 if __name__ == '__main__':
 	app.run(debug = True, threaded = True)

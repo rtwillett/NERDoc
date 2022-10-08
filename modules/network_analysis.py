@@ -5,6 +5,15 @@ import re
 import json
 import matplotlib.pyplot as plt
 
+
+class GraphBuilder:
+
+    def __init__(self, df): 
+
+        self.df = df
+
+    
+
 class DocumentGraphProcessing:
     
     def __init__(self, filepath, source = None, sink = None, min_deg = None, max_deg = None):
@@ -103,7 +112,7 @@ class DocumentGraphProcessing:
         self.EDGELIST.to_csv(f'./{filename}_el.csv', index=None, sep = sep)
         self.NODELIST.to_csv(f'./{filename}_nl.csv', index=None, sep = sep)
     
-    def write_excel(self): 
+    def write_excel(self, filename): 
         self.EDGELIST.to_excel(f'./{filename}_el.csv', index=None)
         self.NODELIST.to_excel(f'./{filename}_nl.csv', index=None)
     
